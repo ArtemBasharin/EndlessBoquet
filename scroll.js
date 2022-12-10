@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollTrigger);
+//gsap.registerPlugin(ScrollTrigger);
 
 const additionalY = { val: 0 };
 let additionalYAnim;
