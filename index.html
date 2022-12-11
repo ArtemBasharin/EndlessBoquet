@@ -4,78 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <title>Endless Boquet</title>
   </head>
 
   <body>
-    <div class="page">
-        <section class='section'>
-            <div class='gallery'>
-              <div class='col'>
-                <div class='image'>
-                  <img src='/images/2.jpeg' alt=''></img>
-                </div>
-                <div class='image'>
-                  <img src='/images/3.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/4.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/5.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/6.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/7.jpeg' alt=''></img>
-                </div>
-              </div>
-              <div class='col'>
-                <div class='image'>
-                  <img src='/images/8.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/9.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/10.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/11.jpeg' alt=''></img>
-                </div>
-                <div class='image'>
-                  <img src='/images/12.jpeg' alt=''></img>
-                </div>
-                <div class='image'>
-                  <img src='/images/13.jpeg' alt=''></img>
-                </div>
-              </div>
-              <div class='col'>
-                <div class=' image'>
-                  <img src='/images/14.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/15.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/16.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/17.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/18.jpeg' alt=''></img>
-                </div>
-                <div class=' image'>
-                  <img src='/images/19.jpeg' alt=''></img>
-                </div>
-              </div>
-            </div>
-          </section>
+    <div class="gallery">
+      <img src="/images/2.png" alt="" />
+      <img src="/images/3.png" alt="" />
+      <img src="/images/4.png" alt="" />
+      <img src="/images/5.png" alt="" />
+      <img src="/images/6.png" alt="" />
+      <img src="/images/7.png" alt="" />
+      <img src="/images/8.png" alt="" />
+      <img src="/images/9.png" alt="" />
+      <img src="/images/10.png" alt="" />
+      <img src="/images/11.png" alt="" />
+      <img src="/images/12.png" alt="" />
+      <img src="/images/13.png" alt="" />
+      <img src="/images/14.png" alt="" />
+      <img src="/images/15.png" alt="" />
+      <img src="/images/16.png" alt="" />
+      <img src="/images/17.png" alt="" />
+      <img src="/images/18.png" alt="" />
+      <img src="/images/19.png" alt="" />
     </div>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".gallery").slick({
+          dots: true,
+          infinite: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          fade: true,
+          cssEase: "linear",
+        });
+      });
+    </script>
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-  <script src="scroll.js"></script>
 </html>
