@@ -63,7 +63,12 @@
 }
 .slick-slide {
   float: left;
-  height: 100vh;
+  @media screen and (orientation: portrait) {
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+    margin: auto;
+  }
   @media screen and (orientation: landscape) {
     width: 100vw;
     height: auto;
