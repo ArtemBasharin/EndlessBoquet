@@ -133,6 +133,18 @@ body {
   max-width: 100px;
   padding: 10px;
 }
-.the-most img {
-  max-width: 100%;
+
+.gallery {
+  height: 100vh;
+}
+@media screen and (orientation: landscape) {
+  .gallery {
+    width: 100vw !important;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+img {
+  height: 100vh;
 }/*# sourceMappingURL=scroll.css.map */
