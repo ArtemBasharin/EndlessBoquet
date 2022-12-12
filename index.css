@@ -1,5 +1,6 @@
 @import url("./scroll.css");
 @import url("./buttons.css");
+@import url("./header.css");
 
 .content {
   background-color: white;
@@ -16,22 +17,4 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-
-.page {
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: "Helvetica Neue", Arial, sans-serif;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-li {
-  margin: 0;
-  padding: 0;
 }

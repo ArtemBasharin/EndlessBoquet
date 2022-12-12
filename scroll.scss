@@ -157,12 +157,12 @@ body {
 
 .img_frame {
   @media (orientation: portrait) {
-    width: calc(100vw - 20px);
-    height: calc(100vw - 20px);
+    width: calc(100vw - 40px);
+    height: calc(100vw - 40px);
   }
   @media (orientation: landscape) {
-    width: calc(100vh - 20px);
-    height: calc(100vh - 20px);
+    width: calc(100vh - 40px);
+    height: calc(100vh - 40px);
   }
   overflow: hidden;
   object-fit: cover;
@@ -178,7 +178,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  filter: blur(2rem);
+  filter: blur(2rem) grayscale(80%) brightness(110%) saturate(70%);
   z-index: 2;
 }
 
