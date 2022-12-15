@@ -22,13 +22,13 @@
 .btn_pulse {
   color: white;
   position: relative;
-  font-size: 80px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 0;
   height: 0;
-  padding: 65px;
+  padding: 35px;
   text-decoration: none;
   border-radius: 50%;
   animation-name: pulse;
