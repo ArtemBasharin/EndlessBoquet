@@ -1,62 +1,39 @@
-@import "https://fonts.googleapis.com/css?family=Russo+One";
-.title_container {
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,200&display=swap");
+
+.container {
+  font-family: "Nunito", sans-serif;
+  width: 100vw;
+  line-height: 1.4;
+  font-size: 40px;
+  font-weight: 200;
+  color: #333;
   position: absolute;
-  height: 100vh;
-  z-index: 99999999999999999;
-  top: 20px;
-  left: 10px;
+  top: 30px;
+  left: 0;
+  z-index: 99999999999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-h2.funny-title {
-  border-top: 5px solid #e0dbde;
-  border-bottom: 5px solid #e0dbde;
-  font-size: 50px;
+.highlight {
+  height: 37px;
+  width: 500px;
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-  font-family: "Russo One", sans-serif;
-  font-weight: 900;
-  letter-spacing: 8px;
 }
-@-webkit-keyframes move-background {
-  0% {
-    background-position: -300px 0;
-  }
-  100% {
-    background-position: 300px -300px;
-  }
-}
-@-moz-keyframes move-background {
-  0% {
-    background-position: -300px 0;
-  }
-  100% {
-    background-position: 300px -300px;
-  }
-}
-@keyframes move-background {
-  0% {
-    background-position: -300px 0;
-  }
-  100% {
-    background-position: 300px -300px;
-  }
-}
-.section-title {
-  -webkit-animation-play-state: running;
-  -moz-animation-play-state: running;
-  animation-play-state: running;
-  color: transparent;
-  background: url(https://obninsksite.ru/assets/theme/images/blog/square.svg)
-    no-repeat #0c0c0c;
-  background-size: cover;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-animation: move-background 20s infinite linear alternate;
-  -moz-animation: move-background 20s infinite linear alternate;
-  animation: move-background 20s infinite linear alternate;
-}
+// body {
+//   background: #1A1C1D;
+// }
+// .center {
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   text-align: center;
+// }
+// h2 {
+//   color: white;
+//   font-family: sans-serif;
+//   width: 80vw;
+// }
