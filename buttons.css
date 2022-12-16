@@ -37,6 +37,12 @@
   animation-iteration-count: infinite;
 }
 
+@media screen and (max-width: 500px) {
+  .contacts {
+    bottom: 40px;
+  }
+}
+
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
