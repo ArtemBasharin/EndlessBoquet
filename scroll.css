@@ -163,10 +163,10 @@ body {
 }
 @media (orientation: landscape) {
   .img_frame {
-    width: calc(100vh - 40px);
-    height: calc(100vh - 40px);
-    max-width: 800px;
-    max-height: 800px;
+    width: calc(80vh - 80px);
+    height: calc(80vh - 80px);
+    max-width: 500px;
+    max-height: 500px;
   }
 }
 

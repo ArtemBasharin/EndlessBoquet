@@ -4,7 +4,7 @@
   font-family: "Nunito", sans-serif;
   width: 100vw;
   line-height: 1.4;
-  font-size: 30px;
+
   font-weight: 200;
   color: #333;
   position: absolute;
@@ -18,9 +18,27 @@
 }
 
 .highlight {
-  height: 37px;
-  width: 400px;
+  // height: 37px;
+  max-width: 800px;
+  padding: 15px 10px;
+  border-radius: 30px;
+  margin: 50px 40px;
   text-align: center;
+  background-color: #6485d9;
+  font-size: 50px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 40px;
+    margin: 20px 20px;
+    width: auto;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 30px;
+    margin: 20px 20px;
+    width: auto;
+    font-size: 20px;
+  }
 }
 // body {
 //   background: #1A1C1D;
