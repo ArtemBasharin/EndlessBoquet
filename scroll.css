@@ -2,7 +2,6 @@ html,
 body {
   height: 100vh;
   overflow: hidden;
-  cursor: none;
   margin: 0;
 }
 @media (pointer: coarse) {
